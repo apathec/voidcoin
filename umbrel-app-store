@@ -1,0 +1,2 @@
+id: "voidhash" # Unique prefix for every app in this store. Only lowercase letters and dashes.
+name: "VoidHash" # Shown in the umbrelOS UI as "<name> App Store".
