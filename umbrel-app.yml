@@ -1,0 +1,36 @@
+manifestVersion: 1
+id: voidhash-voidcoin-pool
+name: Void Pool
+tagline: Self-hosted VoidCoin mining pool
+icon: https://www.void-coin.net/assets/favicon-192.png
+category: bitcoin
+version: "1.0.5"
+port: 3080
+description: >-
+  Run your own VoidCoin (VOID) mining pool with a single click. Void Pool includes
+  everything you need: a full VoidCoin node, stratum server, and web dashboard.
+  Point your miners at your Umbrel and start mining to your own pool.
+
+  Features:
+  - Built-in VoidCoin node (auto-syncs on first run)
+  - Solo and PPLNS mining modes
+  - Supports P2SH (3...) and P2QR (vqr1...) quantum-resistant addresses
+  - Real-time hashrate and earnings dashboard
+  - Automatic payouts
+  - Variable difficulty (vardiff)
+  - SHA256d algorithm — compatible with any standard SHA256d miner
+developer: VoidCoin Team
+website: https://www.void-coin.net
+repo: https://github.com/VoidHash-Crypto/voidcoin-pool-umbrel
+support: https://github.com/VoidHash-Crypto/voidcoin-pool-umbrel/issues
+gallery:
+  - https://explorer.void-coin.net/screenshots/dashboard.png
+releaseNotes: >-
+  VoidCoin Core v1.0.5:
+  - VCIP-1 P2QR-TIMELOCK quantum-resistant address support
+  - QUD difficulty algorithm (activated at block 6,000)
+  - Updated node to VoidCoin Core v1.0.5
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
